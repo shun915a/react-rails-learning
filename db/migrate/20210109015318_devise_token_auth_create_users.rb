@@ -15,7 +15,7 @@ class DeviseTokenAuthCreateUsers < ActiveRecord::Migration[6.0]
 
       ## Rememberable
       t.datetime :remember_created_at
-curl -X POST http://localhost:3001/auth -d '[name]=test1&[email]=test1@gmail.com&[password]=hogehoge&[password_confirmation]=hogehoge'
+
       ## Confirmable
       t.string   :confirmation_token
       t.datetime :confirmed_at
