@@ -4,7 +4,7 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 
-import { verifyCredentials } from './redux-token-auth-config' // <-- note this is YOUR file, not the redux-token-auth NPM module
+import { verifyCredentials } from "./config/redux-token-auth"
 const store = configureStore()
 verifyCredentials(store)
 

@@ -17,7 +17,6 @@
     "redux-form": "^8.3.7",
     "redux-thunk": "^2.3.0",
     "redux-token-auth": "zopelee/redux-token-auth"
-    "web-vitals": "^0.2.4"
   },
   "scripts": {
     "start": "react-scripts start",
