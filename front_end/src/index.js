@@ -4,6 +4,10 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 
+import { verifyCredentials } from "./config/redux-token-auth"
+const store = configureStore()
+verifyCredentials(store)
+
 ReactDOM.render(
   <React.StrictMode>
     <App />
